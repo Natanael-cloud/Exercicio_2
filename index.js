@@ -1,6 +1,13 @@
 
 
 let productValue = Number(prompt('Insira o valor do produto: '))
-//O código let value = prompt('Insira o valor do produto: ') exibe uma caixa de diálogo para o usuário inserir um valor. O que o usuário digitar será armazenado como uma string na variável value//
+//Pede ao usuário um valor, converte para número e o guarda na variável productValue//
 
-console.log(typeof(productValue))
+if (productValue >=20){
+    document.getElementById('resultado').innerHTML = 'Aprovado'
+
+}
+else{
+     document.getElementById('resultado').innerHTML = 'Reprovado'
+
+}
